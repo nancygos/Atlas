@@ -166,6 +166,7 @@
     width:350px;
     font-size: 23px;
     bottom: 7%;
+    position: fixed;
 }
 .card-para{
     background-color: transparent;
@@ -178,6 +179,7 @@
 }
 .para-special{
     width:350px;
+    position: fixed;
 }
 .bottom-right{
     height: 165px;
@@ -265,6 +267,7 @@
     position: absolute;
 }
 .c-color-text{
+    position: fixed;;
     top:77%;
     left:37%;
 }
@@ -344,22 +347,54 @@
     .bottom-right{
         display: none;
     }
-    .c-color-text{
-        left:13%;
-        top:65%;
-    }
-    .center-special{
-        bottom: 20%;
-        width:280px;
-    }
-    .para-special{
-        bottom: 15%;
-        left:13%;
-    }
+    
     .middleRow{
         width:93%;
     }
     .navBar{
         width:93%;
+    }
+    .c-color-text{
+        left:10%;
+        top:63%;
+    }
+    .center-special{
+        bottom: 26%;
+        width:280px;
+    }
+    .para-special{
+        bottom: 23%;
+        left:10%;
+    }
+}
+
+@media only screen and (max-width:760px) {
+    .c-color-text{
+        left:10%;
+        top:73%;
+    }
+    .center-special{
+        bottom: 10%;
+        width:280px;
+        left:10%;
+    }
+    .para-special{
+        bottom: 5%;
+        left:10%;
+    }
+}
+@media only screen and (max-width:375px){
+    .c-color-text{
+        left:10%;
+        top:63%;
+    }
+    .center-special{
+        bottom: 20%;
+        width:280px;
+        left:10%;
+    }
+    .para-special{
+        bottom: 15%;
+        left:10%;
     }
 }
